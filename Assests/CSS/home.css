@@ -1,0 +1,99 @@
+.home {
+  background-color: white;
+  display: flex;
+  height: 700px;
+  width: 1327px;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0px 10px 2px rgba(0, 0, 0, 0.068);
+  transition: all 0.5s linear;
+}
+.item-1 {
+  line-height: 50px;
+  letter-spacing: 0px;
+  padding: 30px;
+  margin-top: 100px;
+}
+.contact-btn {
+  padding: 12px 100px 12px 50px;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+  background-color: rgba(0, 0, 255, 0.7);
+  color: white;
+}
+.item-2 img {
+  height: 500px;
+  margin-left: 80px;
+}
+span {
+  color: blue;
+}
+.social-links {
+  margin-top: 100px;
+}
+.social-links a {
+  color: black;
+  padding: 10px 10px;
+}
+
+
+/************For CellPhone User**********************/
+@media screen and (max-width: 425px) {
+  .home {
+    display: grid;
+    grid-template-rows: 500px 500px;
+    grid-template-columns: 300px;
+    width: 410px;
+    height: 1100px;
+    font-size: 20px;
+  }
+  .item-1 {
+    line-height: 30px;
+    padding: 0px;
+    margin-top: 0px;
+  }
+  .contact-btn {
+    padding: 12px 100px 12px 50px;
+    margin-left: inherit;
+  }
+  .item-2 img {
+    height: 320px;
+    margin-left: -10px;
+  }
+}
+/* **********For Tablet user****************/
+@media screen and (min-width: 768px) {
+  .home {
+    height: 620px;
+    font-size: 35px;
+  }
+  .item-1 {
+    line-height: 70px;
+    padding: 10px;
+    margin-top: -10px;
+    margin-left: -40px;
+  }
+  .contact-btn {
+    font-size: 25px;
+    padding: 20px 200px 60px 50px;
+  }
+  .item-2 img {
+    height: 550px;
+    margin-right: -100px;
+  }
+  .social-links {
+    font-size: 50px;
+    margin-top: 60px;
+  }
+  .social-links a {
+    color: rgb(40, 203, 100);
+    padding: 10px 10px;
+  }
+  .social-links a:hover{
+    color: blue;
+  }
+}

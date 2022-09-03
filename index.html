@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hassan</title>
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Custom css links -->
+    <link rel="stylesheet" href="./Assests/CSS/header.css" />
+    <link rel="stylesheet" href="./Assests/CSS/home.css" />
+    <link rel="stylesheet" href="./Assests/CSS/Expertise.css" />
+    <link rel="stylesheet" href="./Assests/CSS/about.css" />
+    <link rel="stylesheet" href="./Assests/CSS/Education.css" />
+    <link rel="stylesheet" href="./Assests/CSS/conatct.css" />
+    <link rel="stylesheet" href="./Assests/CSS/Footer.css" />
+  </head>
+  <body>
+    <!-- header starts-----------------------------------------------------------------  -->
+    <header class="header">
+      <div class="logo">
+        <h2>Hassan Muhammad</h2>
+      </div>
+      <!-- <i class="fa-solid fa-circle-h logo-icon"></i> -->
+      <i class="fa-solid fa-bars menu-icon"></i>
+
+      <div class="navbar">
+        <nav>
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#Expertise">Expertise</a></li>
+          <li><a href="#Education">Education</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#contact" id="#Contact">Contact </a></li>
+        </nav>
+      </div>
+    </header>
+    <!-- header ends ----------------------------------------------------------------- -------->
+
+    <!-- Home section starts--------------------------------------------------------------- -->
+    <section class="home" id="Home">
+      <div class="item-1">
+        <div class="main-text">
+          <h1>
+            Hi,<br />I'am <span>Hassan Muhammad</span><br />Frontend developer
+          </h1>
+          <button class="contact-btn">Contact</button>
+        </div>
+        <div class="social-links">
+          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+      </div>
+      <div class="item-2">
+        <img src="Mypic.png" alt="some error to load image" />
+      </div>
+    </section>
+    <!-- Home section ended------------------------------------------------- -->
+
+    <!-- Expertise section starts------------------------------------------- -->
+    <section id="Expertise">
+      <!-- <h2>My Skill</h2> -->
+      <div class="html-div">
+        <h2>HTML</h2>
+        <p>
+          I know about the paragraph , heading , navbar , different lists like
+          order list and unordered list ,form ,how to make gallery and so on.
+        </p>
+      </div>
+      <div class="css-div">
+        <h2>CSS</h2>
+        <p>
+          I know the CSS grid system , flex boxes, padding , margin , media
+          query, responsiveness ,psuedo element , variables, function and many
+          more.
+        </p>
+      </div>
+      <div class="javscript-div">
+        <h2>JavaScipt</h2>
+        <p>
+          I learn the data types ,types conversion ,loops , if else , DOM
+          manipulation, different event,getbyid ,getbyclassName and so on.
+        </p>
+      </div>
+    </section>
+    <!-- Expertise section ended---------------------------- -->
+
+    <!-- Education section starts--------------------------- -->
+    <secton id="Education">
+      <h1>My Educational Institutes</h1>
+      <div class="slider">
+        <img src="./Assests/Media/primary.jpg" alt="" class="image1" />
+        <img src="./Assests/Media/college.jpg" alt="" class="image2" />
+        <img src="./Assests/Media/uni.jpg" alt="" class="image3" />
+        <img src="./Assests/Media/college.jpg" alt="" class="image4" />
+      </div>
+      <div class="sliding-btn">
+        <button type="button" id="btn1"></button>
+        <button type="button" id="btn2"></button>
+        <button type="button" id="btn3"></button>
+        <button type="button" id="btn4"></button>
+      </div>
+    </secton>
+    <!-- Education section ended--------------------------- -->
+
+    <!-- About sectipon starts------------------------------- -->
+    <section id="About">
+      <div class="about-img">
+        <img src="./Assests/Media/about-pic.png" alt="" />
+      </div>
+      <div class="about-txt">
+        <h2>ABOUT ME</h2>
+        <p>
+          This is Hassan Muhammad from KPK district Hangu. I cleared my matric
+          from BISE kohat and intermidiate from BISE Peshawar.And now I am
+          studying in Federal urdu University in islamabad campus.I start
+          working on web development after my intermidiate paper and take
+          classes in kamyab jawan program.The teacher tell us about html ,css,
+          js and JQuery.
+        </p>
+      </div>
+    </section>
+    <!-- About section is ended-------------------------------- -->
+    <!-- Cintact us ection starts----------------------------- -->
+    <section id="contact">
+      <div class="contact-txt">
+        <h1>Message Us</h1>
+        <p>
+          if you need any type of information about our content or our website
+          then feel free to contact us thrpugh the right side form.An awesome
+          Contact Us page finds just the right balance between making it easy to
+          reach the company and sharing resources users can use to answer their
+          questions right away.They also ask if users are a current customer,
+          which lets them provide better service by understanding whether a
+          contact is likely to have a question or need service.
+        </p>
+      </div>
+      <div class="contact-form">
+        <h2>Name*</h2>
+        <input type="name" placeholder="First Name" class="f-name" />
+        <input type="name" placeholder="Last Name" class="l-name" />
+        <h2>Email*</h2>
+        <input type="email" placeholder="example@gmail.com" />
+        <h2>Message</h2>
+        <input type="message" class="message-box" />
+        <button>Submit</button>
+      </div>
+    </section>
+
+    <footer>
+      <div class="Sacount-links">
+        <h3>Social Accounts</h3>
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">Twitter</a>
+        <a href="#">Linkedin</a>
+        <a href="#">WhatsApp</a>
+      </div>
+      <!-- <div class="social-link-icon">
+        <h3>Social Accounts</h3>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+      </div> -->
+      <div class="site-links">
+        <h3>Site Links</h3>
+        <a href="#Home">Home</a>
+        <a href="#Expertise">Expertise</a>
+        <a href="#Education">Educational institues</a>
+        <a href="#About">About</a>
+        <a href="#contact">Contact Form</a>
+      </div>
+      <!-- <div class="site-links-icon">
+        <h3>Site Links</h3>
+        <a href="#"><i class="fa-solid fa-house-chimney">a</i></a>
+        <a href="#"><i class="fa-light fa-rectangle-code">b</i></a>
+        <a href="#"><i class="fa-solid fa-building-columns">c</i></a>
+        <a href="#"><i class="fa-solid fa-snowman-head"></i>d</a>
+        <a href="#"><i class="fa-regular fa-circle-envelope">e</i></a>
+      </div> -->
+      <div class="address">
+        <h3>Address</h3>
+        <div class="addre-Txt">
+          <p>6th Road,behind the TOTAL pump ,jilani Hostal,2nd floor,Room#24</p>
+        </div>
+        <div class="Addre-img">
+          <img
+            src="./Assests/Media/map.jpg"
+            alt=""
+            width="300px"
+            height="100px"
+          />
+        </div>
+      </div>
+      <div class="copyright-line">
+        <h4>All Copyright are reserved</h4>
+        <span>Created By Hassan Muhammad</span>
+      </div>
+    </footer>
+    <!-- JQuery cdn -->
+
+    <!-- <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+   -->
+    <!-- Custom javascript link -->
+    <script src="./Assests/js file/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,84 @@
+html {
+  scroll-behavior: smooth;
+}
+
+  #Expertise {
+    display: grid;
+    width: 1327px;
+    height: 600px;
+    grid-template-columns: 430px 430px 430px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    grid-gap: 0 30px;
+    background-color: #caebeb;
+    text-align: center;
+    box-shadow: 0px 10px 2px rgba(0, 0, 0, 0.068);
+  }
+  #Expertise div {
+    width: 350px;
+    height: 370px;
+    padding: 20px;
+    background-color: whitesmoke;
+    margin-top: 70px;
+    margin-left: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 5px 2px rgba(0, 0, 0, 0.521);
+  }
+  #Expertise div:hover {
+    transition: all 0.2s linear;
+    transform: scale(1, 1.02);
+  }
+  #Expertise div h2 {
+    color: orangered;
+  }
+  #Expertise p {
+    text-align: justify;
+    line-height: 40px;
+    font-size: 20px;
+  }
+
+/* **************For CellPhone User****************/
+
+@media screen and (max-width: 425px) {
+  #Expertise {
+    display: flex;
+    flex-wrap: wrap;
+    width: 410px;
+    /* width: 99%; */
+    height: 1200px;
+  }
+  #Expertise div {
+    width: 300px;
+    height: 320px;
+    padding: 20px;
+    margin-top: 40px;
+    margin-left: 30px;
+  }
+  #Expertise .icons {
+    font-size: 30px;
+  }
+  #Expertise p {
+    text-align: justify;
+    justify-content: center;
+    font-size: 20px;
+  }
+}
+
+/******************For Tablet Users************/
+@media screen and (min-width: 768px) {
+  #Expertise div {
+    width: 380px;
+    height: 460px;
+  }
+  /* #Expertise .icons {
+    font-size: 50px;
+  } */
+  #Expertise div h2 {
+    font-size: 50px;
+    margin-top: -2px;
+  }
+  #Expertise p {
+    font-size: 30px;
+    margin-top: -2px;
+    word-spacing: -4px;
+  }
+}

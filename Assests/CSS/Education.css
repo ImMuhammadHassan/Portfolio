@@ -1,0 +1,74 @@
+
+  #Education {
+    text-align: center;
+    color: white;
+    background-color: rgb(0, 8, 8);
+    width: 1327px;
+    display: grid;
+    height: 700px;
+    border: 1px solid black;
+  }
+
+  /* Slider Image styling starts  */
+  .slider {
+    display: flex;
+    height: 400px;
+    width: 900px;
+    margin-left: 200px;
+    margin-top: 20px;
+    border: 3px solid green;
+    overflow: hidden;
+  }
+  .slider img {
+    display: flex;
+    height: 400px;
+    width: 100%;
+  }
+  /* button styling starts */
+  .sliding-btn {
+    width: 200px;
+    position: relative;
+    top: -130px;
+    left: 42%;
+    padding: 20px;
+  }
+  .sliding-btn button {
+    background-color: white;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border: 1px solid rgba(0, 0, 0, 0.799);
+    padding: 8px;
+    margin-left: 10px;
+  }
+  .sliding-btn button:hover {
+    background-color: rgb(173, 212, 19);
+  }
+
+
+/*********For CellPhone USer******************/
+@media screen and (max-width: 425px) {
+  #Education {
+    width: 99%;
+    margin-top: 30px;
+    height: 520px;
+  }
+  .slider {
+    height: 250px;
+    width: 400px;
+    margin-left: 0px;
+    margin-top: 30px;
+  }
+  .sliding-btn {
+    top: -90px;
+    left: 30%;
+  }
+}
+
+/****************For Tablet USers***********************************/
+@media screen and (min-width: 768px) {
+  #Education h1 {
+    font-size: 50px;
+  }
+}

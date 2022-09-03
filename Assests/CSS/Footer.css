@@ -1,0 +1,127 @@
+
+footer {
+  display: grid;
+  grid-template-rows: 150px;
+  grid-template-columns: 420px 420px 420px;
+  background-color: rgb(10, 10, 10);
+  width: 1327px;
+  padding: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.Sacount-links a,
+.site-links a {
+  display: block;
+  width: 150px;
+  margin-top: 5px;
+}
+a:hover {
+  color: white;
+  letter-spacing: 3px;
+}
+.Sacount-links h3,
+.site-links h3,
+.address h3,
+.addre-Txt {
+  text-justify: auto;
+  color: white;
+}
+.addre-Txt p {
+  color: #551a8b;
+}
+.Addre-img {
+  margin-top: -5px;
+}
+.copyright-line {
+  display: flex;
+  width: 1300px;
+  height: 40px;
+  border-top: 2px solid white;
+  margin-top: 80px;
+  color: rgba(253, 253, 254, 0.665);
+}
+.copyright-line span {
+  color: rgba(253, 253, 254, 0.665);
+  margin-left: 100px;
+  margin-top: 25px;
+}
+/* --------------------------------------------------------- */
+.social-link-icon a,
+.site-links-icon a {
+  display: none;
+  width: 150px;
+  font-size: 25px;
+  margin-left: 10px;
+  color: yellow;
+}
+.social-link-icon h3,
+.site-links-icon h3 {
+  text-justify: auto;
+  color: white;
+  display: none;
+}
+
+/**********For Mobile User************************************/
+@media screen and (max-width: 425px) {
+  footer {
+    display: block;
+    width: 410px;
+    height: 700px;
+  }
+  .Sacount-links a,
+  .site-links a {
+    display: block;
+    width: 200px;
+    margin-top: 5px;
+  }
+
+  .copyright-line {
+    width: 360px;
+    margin-top: 30px;
+  }
+  .copyright-line h4 {
+    display: none;
+  }
+  .copyright-line span {
+    margin-left: 30px;
+  }
+}
+/**********For Tablet User************************************/
+@media screen and (min-width: 768px){
+  footer {
+    height: 500px;
+  }
+   
+  .Sacount-links a,
+  .site-links a {
+    font-size:30px;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 40px;
+    padding: 5px;
+  }
+  .Sacount-links h3,
+  .site-links h3,
+  .address h3,
+  .addre-Txt {
+    font-size: 40px;
+  }
+  .addre-Txt p {
+   font-size: 30px;
+  }
+
+  .copyright-line {
+    margin-top: 250px;
+  }
+  .copyright-line span {
+    font-size: 30px;
+    width: 600px;
+  }
+  .copyright-line h4{
+    font-size: 30px;
+    width: 600px;
+    margin-top: 25px;
+  }
+  /* --------------------------------------------------------- */ 
+
+}
